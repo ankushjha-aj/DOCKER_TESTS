@@ -21,8 +21,8 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Build the Docker image
-        run:  docker build ./ -t ankush2642/docker-php-image:v1
+        run:  docker build ./ -t ankush2642/docker-linkedln:v1
 
 
       - name: Push the Docker image
-        run: docker push ankush2642/docker-php-image:v1
+        run: docker push ankush2642/docker-linkedln:v1 
