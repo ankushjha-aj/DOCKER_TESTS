@@ -16,6 +16,7 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
+          registry: docker.io # Optional, good practice to be explicit
           username: ankush2642
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
