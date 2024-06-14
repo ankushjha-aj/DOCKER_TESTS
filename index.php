@@ -1,5 +1,5 @@
 <?php
-echo "Hello, World from Docker 2 2 2 2 2 2 2 2 2 2!";
+echo "DOCKER TEST GITHUB ";
 ?>
 
 

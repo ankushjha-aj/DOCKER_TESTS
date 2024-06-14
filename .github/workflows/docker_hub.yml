@@ -25,4 +25,4 @@ jobs:
 
 
       - name: Push the Docker image
-        run: docker push ankush2642/docker-linkedln:v1 
+        run: docker push ankush2642/docker-linkedln:v1  
