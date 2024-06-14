@@ -17,7 +17,7 @@ jobs:
         run: echo "$DOCKERHUB_TOKEN " | docker login -u "$DOCKER_USERNAME" --password-stdin
         env:
           DOCKER_USERNAME: ankush2642
-          DOCKER_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build the Docker image
         run:  docker build ./ -t ankush2642/docker-php1-image:v1
